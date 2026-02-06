@@ -42,15 +42,15 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOWZERSSSS You love me that much ke?",  // Shows when they go past 5000%
+        extreme: "WOWZERSSSS You love me that much ke? CRAZY CRAZY CRAZY",  // Shows when they go past 5000%
         high: "WAHHHH, DAMN, CRAZY BALLS!",              // Shows when they go past 1000%
-        normal: "WEIIIII CRAZY CRAZY CRAZY"                           // Shows when they go past 100%
+        normal: "WEIIIIII"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "YAYYYYYY! HEHEHEHEHEHE, aw yeah, I'm the luckiest person in the world! 💓",
-        message: "Now, you wait..for what's actually happening on that day, TEEHEE :))))"
+        message: "Now, you wait..for what's actually happening on that day, TEEHEE :))))",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
@@ -78,16 +78,11 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/dgb53d2rs/video/upload/v1770370334/Olivia_Dean_-_So_Easy_To_Fall_In_Love_Lyrics_a9dhyh.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
     }
-};
-
-// Don't modify anything below this line unless you know what you're doing
-window.VALENTINE_CONFIG = CONFIG; 
-window.VALENTINE_CONFIG = CONFIG; 
 };
 
 // Don't modify anything below this line unless you know what you're doing
